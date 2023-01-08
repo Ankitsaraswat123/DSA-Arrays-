@@ -3,7 +3,7 @@
 
 //add element in array at last index
 
-/*public class Ankit1 {
+public class Ankit1 {
    public static void main(String[] args){
    int arr[]={1,2,3,4};
    int n=arr.length;
@@ -18,11 +18,11 @@
    }
 
  }
-}*/
+}
 
 //add element in array at any given position
 
-/*class Ankit1{
+class Ankit1{
    public static void main(String[] args){
       int arr[]={1,2,3,4,5};
       int n=arr.length;
@@ -42,11 +42,11 @@
       }
 
    }
-}*/
+}
 
 //delete specific  element from given array
 
-/*class Ankit1{
+class Ankit1{
    public static void main(String[] args){
       int arr[]={1,2,3,4,5};
       int n=arr.length;
@@ -63,11 +63,11 @@
          System.out.print(new_arr[j]+" ");
       }
    }
-}*/
+}
 
 //delete element by its index from an array
 
-/*class Ankit1{
+class Ankit1{
    public static void main(String[] args){
       int arr[]={1,2,3,4,5};
       int n=arr.length;
@@ -86,10 +86,10 @@
       }
 
    }
-}*/
+}
 
 //reverse an array
-/*class Ankit1{
+class Ankit1{
    public static void main(String[] args){
       int arr[]={1,2,3,4,5};
       int n=arr.length;
@@ -98,11 +98,11 @@
           System.out.print(arr[i]+" ");
       }
    }
-}*/
+}
 
 //how to find the largest element in an array
 
-/*class Ankit1{
+class Ankit1{
    static int Fun(int arr[],int n){
       int max=arr[0];
       for(int i=0;i<n;i++){
@@ -118,11 +118,11 @@
       System.out.println("maximum element of array will be: "+Fun(arr, n));
 
    }
-   }*/
+   }
 
 //how to find second largest element in an array
 
-/*class Ankit1{
+class Ankit1{
    static void SecondLargest(int arr[],int n){
       Arrays.sort(arr);
       if(n<2){
@@ -144,11 +144,11 @@
       int n=arr.length;
       SecondLargest(arr, n);
    }
-}*/
+}
 
 //how to count number of duplicate element from the given array
 
-/*class Ankit1{
+class Ankit1{
    public static void main(String[] args){
       int arr[]={1,4,2,6,7,3,2,3,3};
       int n=arr.length;
@@ -163,11 +163,11 @@
    System.out.println("number of duplcate element will be: "+count);
 
    }
-}*/
+}
 
 //how to remove duplicate from the array
 
-/*class Ankit1{
+class Ankit1{
    public static void main(String[] args){
       int arr[]={1,2,3,4,2,1,5};
       int n=arr.length;
@@ -190,11 +190,11 @@
       }
 
    }
-}*/
+}
 
 //check wheather an array is sorted or not method-1
 
-/*  class A
+  class A
 {
  public static boolean isSorted(int[] a)
  {
@@ -218,11 +218,11 @@
      int[] a = { 1, 2, 3, 4, 5 };
      System.out.println(isSorted(a));        // true
 }
-}*/
+}
 
 //sorting an  array  method-2
 
-/*class Ankit1{
+class Ankit1{
    public static boolean Sorted(int arr[],int n){
       for(int i=0;i<n;i++){
          if(arr[i]>arr[i+1]){
@@ -236,11 +236,11 @@
       int n=arr.length;
       System.out.println(Sorted(arr, n));
    }
-}*/
+}
 
 //prefix sum
 
-/*class Ankit1{
+class Ankit1{
   static void aprefixSum(int arr[],int n,int prefixSum[]){
      prefixSum[0]=arr[0];
      for(int i=1;i<n;i++){
@@ -259,11 +259,11 @@
       }
       System.out.println();
    }
-   }*/
+   }
 
 //sliding window technique to find maximum element of given k consicutive terms
 
-/*class Aj{
+class Aj{
    static void As(int arr[],int n,int k){
       for(int i=0;i<n-k+1;i++){
          int max=arr[i];
@@ -283,11 +283,10 @@
          int k=3;
          As(arr, n, k);
       }
-   }*/
+   }
 
 //arrayList in java
-
-/*class Ankit1{
+class Ankit1{
    public static void main(String[] args){
       ArrayList<Integer> arrli=new ArrayList<Integer>();
       int n=5;
@@ -303,11 +302,11 @@
  arrli.add(7);
  System.out.println(arrli);
 }
-}*/
+}
 
 //move zero to end
 
-/*class Ankit1{
+class Ankit1{
   static void Funny(int arr[],int n){
       int count=0;
       for(int i=0;i<n;i++){
@@ -330,10 +329,10 @@
       }
       System.out.println();
    }
-}*/
+}
 
 //left rotate an array by one
-/*class Ankit1{
+class Ankit1{
   static void  Fun(int arr[],int n){
     int temp=arr[0];//{1,2,3,4,5}={3,4,5,1,2}
     for(int i=1;i<n;i++){
@@ -352,12 +351,12 @@
    }
    
 }
-*/
+
 //left rotate n array by d times
 
 //but this code have time complexity of theta(n*d)
 
-/*class Ankit1 {
+class Ankit1 {
    static void Fun(int arr[], int n, int d) {
       for (int i = 0; i < d; i++) {
          int temp = arr[0];
@@ -378,7 +377,7 @@
       Fun(arr, n, d);
    }
 
-}*/
+}
 
 //method-ii for left roatation of an array by d times
 class Ankit1 {
